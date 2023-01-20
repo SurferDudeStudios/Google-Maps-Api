@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Google maps api</title>
+  <link rel="stylesheet" href="css/gmap.css" media="all">
+ </head>
+ <body>
+  <main>
+      <div id="map">
+      </div>
+  </main>
+  <!-- Replace THE_MAP_KEY with your google maps api key -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=THE_MAP_KEY&callback=initMap" defer></script>
+  <!-- This contains the JSON source url and must be called before the map JS -->
+  <script src="js/json-src.js"></script>
+  <!-- Map JS -->
+  <script src="js/gmap-min.js"></script>
+  <!-- Map JS (minified) -->
+  <!-- script src="js/gmap-min.js"></script -->
+ </body>
+<html>

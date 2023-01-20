@@ -1,0 +1,24 @@
+{
+  "map": [{
+    "initialZoom": 6,
+    "icon": "",
+    "iconWidth": 42,
+    "iconHeight": 42,
+    "mapType": "roadmap",
+    "centerLat": 54.93,
+    "centerLng": -3.20,
+    "zoomControl": true,
+    "mapTypeControl":  true,
+    "scaleControl":  true,
+    "streetViewControl":  true,
+    "rotateControl":  true,
+    "fullscreenControl":  true
+    }],
+  "locations": [
+  {
+    "name": "A name",
+    "furtherInfo": "Further Information",
+    "lat": 00.00,
+    "lng": 00.00
+  }
+]}
